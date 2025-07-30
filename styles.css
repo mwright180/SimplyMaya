@@ -1,0 +1,32 @@
+h1{ 
+    text-align: center;
+    color:rgb(196, 37, 103);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.navbar ul{list-style-type:none;
+            background-color: pink;
+            padding:0px;
+            margin:0px;
+}
+
+.navbar a{color:black;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+
+}
+.navbar a:hover{background-color: rgb(216, 97, 117);}
+body{
+    background-color: rgb(223, 159, 194);
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font size:1.1em;
+    font style::details-content;
+
+
+}
+main{ margin: 20px;}
+
