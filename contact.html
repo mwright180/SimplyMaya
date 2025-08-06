@@ -9,14 +9,14 @@
 
     <link rel="stylesheet" href="styles.css">
 
-<title>Simply Maya</title>
+<title>Contact Me - Simply Maya</title>
     <!--The title tag will display thee title of the webpage-->
 
 </head>
 
 <body>
     <!--The body displays the acutual content on the webpage-->
-
+<div class="container">
 <header>
     <h1>Contact Information</h1>
 
@@ -33,10 +33,56 @@
     <!--There are six tags available <h1> to <h6> to display important headings <h1> being most important-->
 </header>
 <main>
+    <h2>Contact Me</h2>
     <p>
-        Personal Email: mayawright16@yahoo.com
+        Have a question, want to collaborate, or just want to say hi? Fill out the form below! 
         
     </p>
+<!--Form starts here with the required ID and action="#"-->
+    <form id="webForm" action="#">
+        <fieldset>
+            <!--Legend provides a caption for the fieldset-->
+            <legend>Contact Information</legend>
+
+        <label for="name">Full Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required />
+
+        
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+    <!--Radio button for Contact Info-->
+        <label>Preferred Contact Method:</label><br />
+        <input type="radio" id="contactEmail" name="contactMethod" value="Email" checked />
+        <label for="contactEmail">Email</label><br />
+        <input type="radio" id="contactPhone" name="contactMethod" value="Phone" />
+        <label for="contactPhone">Phone</label><br /><br />
+        
+   <!--Checkboxes for topics of intrest-->     
+        <label>Topics of Intrest:</label><br />
+        <input type="checkbox" id="collab" name="interest" value="Collaboration" />
+        <label for="collab">Collabortion</label><br />
+        <input type="checkbox" id="events" name="interest" value="Events" />
+        <label for="events">Events</label><br />
+        <input type="checkbox" id="justChat" name="interest" value="Just Saying Hi" />
+        <label for="justChat">Just Saying Hi</label><br /><br />
+
+    <!--Dropdown for how the user found the site-->
+        <label for="how">How did you find me?</label><br />
+        <select id="how" name="how">
+            <option value="social">Social Media</option>
+            <option value="friend">A Friend</option>
+            <option value="other">Other</option>
+        </select><br /><br />
+
+        <input type="submit" valaue="Submit" />
+
+        </fieldset>
+    </form>
+    <p><div id="output"></div></p>
 
     <img src="logo.png" alt="HTML logo" height="75" width="75">
 
@@ -45,10 +91,13 @@
 <footer>
     <!--The footer contains information about the webpage-->
     <p>
-        Edited by: Maya Aleyah - 21 July 2025<br>
-       
+        Edited by: Maya Aleyah - 06 Aug 2025<br>
+    To learn more <a href="https://moreaboutmaya.io/">click here</a>
     </p>
 </footer>
+</div>   
+
+<script src="script.js"></script>
 </body>
     </html>
     

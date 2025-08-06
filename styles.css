@@ -120,3 +120,56 @@ main{ margin: 20px;
     width: 300px;
     margin-top: 10px;
 }
+
+form#webForm {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+form#webForm fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+form#webForm fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+form#webForm legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 5px;
+}
+
+formwebForm label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+form#webForm input[type="text"],
+form#webForm input[type="email"],
+form#webForm textarea,
+form#webForm select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+form#webForm input[type="susbmit"] :hover { background-color: #497373;}
